@@ -1,4 +1,5 @@
 ## Step 1 ##
+
 - work out how to run linting `npm run lint` 🍸
 - install Husky `npm install --save-dev husky` 🍸
 - `npx husky init` makes a script and updates script in package.json to create a pre-commit hook 🍸

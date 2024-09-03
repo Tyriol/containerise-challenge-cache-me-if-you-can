@@ -29,7 +29,7 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <Image
+        <img
           className={styles.logo}
           src="/next.svg"
           alt="Next.js Logo"
@@ -47,7 +47,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Dicap rules <span>-&gt;</span>
+            Dicap <span>-&gt;</span>
           </h2>
           <p>Find in-depth information about Next.js features and API.</p>
         </a>
