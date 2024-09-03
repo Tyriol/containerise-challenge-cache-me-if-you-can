@@ -16,7 +16,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             By{" "}
-            <img
+            <Image
               src="/vercel.svg"
               alt="Vercel Logo"
               className={styles.vercelLogo}
@@ -33,13 +33,16 @@ export default function Home() {
           className={styles.logo}
           src="/next.svg"
           alt="Next.js Logo"
-          width={180}
-          height={37}
+          width=
+          {180}
+          height=
+          {37}
           priority
         />
       </div>
 
-      <div className={styles.grid}>
+      <div className=
+      {styles.grid}>
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}

@@ -16,6 +16,6 @@
 - `npx prettier --write 'app/'` 🍸
 - Create an npm script to run prettier 🍸
 - Test that it works 🍸
-- Test you can make it angry
+- Test you can make it angry 🍸
 - Add to husky pre-commit hook
 - test again
