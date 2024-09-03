@@ -17,5 +17,22 @@
 - Create an npm script to run prettier 🍸
 - Test that it works 🍸
 - Test you can make it angry 🍸
-- Add to husky pre-commit hook
-- test again
+- Add to husky pre-commit hook 🍸
+- test again 🍸
+
+## Step 3
+
+- Create a component for the h2's that takes a title prop
+  - Create a components folder
+  - Create a Title component
+- Test component works
+- install jest
+- look into and install react testing library
+- create an npm test script
+- write a basic test for the title component
+- Test the test
+  - Write component to fail
+  - Test it fails
+- Add test script to husky pre-commit hook
+- Test the hook works
+- make sure failing test stops commit
