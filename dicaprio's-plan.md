@@ -22,10 +22,10 @@
 
 ## Step 3
 
-- Create a component for the h2's that takes a title prop
-  - Create a components folder
-  - Create a Title component
-- Test component works
+- Create a component for the h2's that takes a title prop 🍸
+  - Create a components folder 🍸
+  - Create a Title component 🍸
+- Test component works 🍸
 - install jest
 - look into and install react testing library
 - create an npm test script
