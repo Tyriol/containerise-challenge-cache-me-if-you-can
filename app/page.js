@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Title from "./components/Title/Title";
 
 export default function Home() {
   return (
@@ -33,25 +34,20 @@ export default function Home() {
           className={styles.logo}
           src="/next.svg"
           alt="Next.js Logo"
-          width=
-          {180}
-          height=
-          {37}
+          width={180}
+          height={37}
           priority
         />
       </div>
 
-      <div className=
-      {styles.grid}>
+      <div className={styles.grid}>
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2>
-            Dicap <span>-&gt;</span>
-          </h2>
+          <Title titleText="Dicaprio" />
           <p>Find in-depth information about Next.js features and API.</p>
         </a>
 
@@ -61,9 +57,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
+          <Title titleText="Learning Jest" />
           <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
         </a>
 
@@ -73,9 +67,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
+          <Title titleText="Learning React Testing Library" />
           <p>Explore starter templates for Next.js.</p>
         </a>
 
@@ -85,9 +77,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
+          <Title titleText="Ling and Connie" />
           <p>
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
