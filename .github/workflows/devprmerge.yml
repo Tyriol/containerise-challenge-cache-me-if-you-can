@@ -1,0 +1,16 @@
+name: developer merge
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  hileo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Say hello world
+        run: echo "Cache if you can"
