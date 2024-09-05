@@ -47,7 +47,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Title titleText="Dicaprio" />
+          <Title titleText="Dicaprio sucks" />
           <p>Find in-depth information about Next.js features and API.</p>
         </a>
 
@@ -68,7 +68,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <Title titleText="Learning React Testing Library" />
-          <p>Explore starter templates for Next.js.</p>
+          <p>Woof woof woof.</p>
         </a>
 
         <a
