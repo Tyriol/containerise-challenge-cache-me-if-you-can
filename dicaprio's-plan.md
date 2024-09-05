@@ -54,8 +54,17 @@
   - Write simple github action to echo a Leo quote on pr merge into the main branch 🍸
   - Commit to main 🍸
   - Test its working!
-    - Create feature branch
-    - make change and commit
-    - Create pull request
-    - Merge PR
-    - Should echo leo quote
+    - Create feature branch 🍸
+    - make change and commit 🍸
+    - Create pull request🍸
+    - Merge PR🍸
+    - Should echo leo quote🍸
+
+- docker build and docker run in a Github Action
+  - rename ymlfile
+  - install docker step
+  - docker build step
+  - docker run step `docker run --rm image_name_here npm run lint && npm run format` 
+    - with lint
+    - with format
+
