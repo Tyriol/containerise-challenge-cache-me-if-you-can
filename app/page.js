@@ -7,7 +7,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get tumbled by editing&nbsp;
+          Get rumbled by editing&nbsp;
           <code className={styles.code}>app/page.js</code>
         </p>
         <div>
