@@ -6,14 +6,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-<<<<<<< HEAD
-          Cache if you can&nbsp;
-=======
-          Get rumbled by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
->>>>>>> db4848035282c42bc21fb18e4ee8cc969ac47bea
-        </p>
+        <p>Cache if you can&nbsp;</p>
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
