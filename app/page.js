@@ -7,7 +7,12 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
+<<<<<<< HEAD
           Cache if you can&nbsp;
+=======
+          Get rumbled by editing&nbsp;
+          <code className={styles.code}>app/page.js</code>
+>>>>>>> db4848035282c42bc21fb18e4ee8cc969ac47bea
         </p>
         <div>
           <a
