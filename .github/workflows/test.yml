@@ -1,15 +1,16 @@
 name: test-Leoyml
-on: 
+on:
   pull_request:
-  branches:
-    - main
+    branches:
+      - main
 
 jobs:
   hileo:
     runs-on: ubuntu-latest
+
     steps:
-      checkout: actions/checkout@v4
-      run:  echo "Cache if you can"
-     
-  
-     
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Say hello world
+        run: echo "Cache if you can"
