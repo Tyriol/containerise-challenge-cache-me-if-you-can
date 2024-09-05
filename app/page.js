@@ -67,7 +67,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Title titleText="Learning React Testing Library" />
+          <Title titleText="Stop chasing me!" />
           <p>Woof woof woof.</p>
         </a>
 
