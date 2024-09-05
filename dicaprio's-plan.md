@@ -49,7 +49,7 @@
 ### Steps
 
 - Create a Github action
-  - Create .github folder with a workflow sub folder
+  - Create .github folder with a workflow sub folder 🍸
   - Create a yaml file (.yml) for a simple action
   - Write simple github action to echo a Leo quote on pr merge into the main branch
   - Commit to main
