@@ -5,12 +5,15 @@ on:
       - main
 
 jobs:
-  hileo:
+  lint-and-format-container:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Say hello world
-        run: echo "Cache if you can"
+      - name: Build Docker Image
+        run: docker build -t pr-image -f Dockerfile.dev
+
+      - name: Run Docker Image
+        run: docker run --rm pr-image npm run lint && npm run leoispretty
