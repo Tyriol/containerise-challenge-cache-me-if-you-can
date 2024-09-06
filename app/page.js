@@ -6,10 +6,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Get tumbled by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
+        <p>Cache if you can&nbsp;</p>
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -32,10 +29,10 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/next.svg"
+          src="/avion.jpg"
           alt="Next.js Logo"
-          width={180}
-          height={37}
+          width={900}
+          height={474}
           priority
         />
       </div>
