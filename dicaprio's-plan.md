@@ -60,11 +60,15 @@
     - Merge PR🍸
     - Should echo leo quote🍸
 
-- docker build and docker run in a Github Action
+- docker build and docker run in a Github Action 🍸
   - rename ymlfile
   - install docker step
   - docker build step
   - docker run step `docker run --rm image_name_here npm run lint && npm run format` 
     - with lint
     - with format
+  - Test
+  - Prevent merge if errors in checks
+    - Set up ruleset in github to prevent merging
+  - Test
 
