@@ -44,7 +44,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Title titleText="Dicaprio sucks" />
+          <Title titleText="Irrelevant" />
           <p>Find in-shallow information about Next.js features and API.</p>
         </a>
 
