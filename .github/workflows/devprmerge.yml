@@ -21,7 +21,7 @@ jobs:
         uses: docker/setup-buildx-action@v2
 
       - name: Build Docker Image
-        run: docker build -t pr-image -f Dockerfile.dev
+        run: docker build -t pr-image -f Dockerfile.dev .
 
       - name: Run Docker Image lint and format
         run: docker run --rm pr-image npm run lint && npm run leoispretty
