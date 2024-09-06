@@ -75,7 +75,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <Title titleText="Ling and Connie" />
-          <p>"Goodbye Tom :'"</p>
+          <p>Goodbye Tom</p>
         </a>
       </div>
     </main>
