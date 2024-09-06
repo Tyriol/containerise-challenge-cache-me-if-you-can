@@ -27,7 +27,7 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <Image
+        <img
           className={styles.logo}
           src="/avion.jpg"
           alt="Next.js Logo"
