@@ -55,7 +55,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <Title titleText="Learning Jest" />
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+          <p>Learn about how awesome is our work&nbsp;quizzes!</p>
         </a>
 
         <a
