@@ -45,7 +45,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <Title titleText="Dicaprio sucks" />
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>Find in-shallow information about Next.js features and API.</p>
         </a>
 
         <a
@@ -65,7 +65,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <Title titleText="Stop chasing me!" />
-          <p>Woof woof woof.</p>
+          <p>Woof woof pff.</p>
         </a>
 
         <a
@@ -75,9 +75,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <Title titleText="Ling and Connie" />
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
+          <p>Goodbye Tom</p>
         </a>
       </div>
     </main>
