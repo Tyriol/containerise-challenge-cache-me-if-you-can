@@ -65,7 +65,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <Title titleText="Stop chasing me!" />
-          <p>Woof woof woof.</p>
+          <p>Woof woof pff.</p>
         </a>
 
         <a
