@@ -12,7 +12,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install Docker
+      - name: Set up Docker (Install Docker)
+        uses: docker/setup-qemu-action@v2
+        with:
+          platforms: linux/amd64
+
+      - name: Install Docker engine
         run: docker/setup-buildx-action@v2
 
       - name: Build Docker Image
