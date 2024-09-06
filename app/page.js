@@ -76,7 +76,7 @@ export default function Home() {
         >
           <Title titleText="Ling and Connie" />
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            "Goodbye Tom :'"
           </p>
         </a>
       </div>
