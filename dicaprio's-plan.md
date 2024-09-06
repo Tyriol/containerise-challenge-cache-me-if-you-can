@@ -49,6 +49,7 @@
 ### Steps
 
 - Create a Github action
+
   - Create .github folder with a workflow sub folder 🍸
   - Create a yaml file (.yml) for a simple action 🍸
   - Write simple github action to echo a Leo quote on pr merge into the main branch 🍸
@@ -60,15 +61,25 @@
     - Merge PR🍸
     - Should echo leo quote🍸
 
-- docker build and docker run in a Github Action 🍸
-  - rename ymlfile
-  - install docker step
-  - docker build step
-  - docker run step `docker run --rm image_name_here npm run lint && npm run format` 
-    - with lint
-    - with format
-  - Test
-  - Prevent merge if errors in checks
-    - Set up ruleset in github to prevent merging
-  - Test
+- docker build and docker run in a Github Action 🍸🍸
+  - rename ymlfile🍸
+  - install docker step🍸
+  - docker build step🍸
+  - docker run step `docker run --rm image_name_here npm run lint && npm run format` 🍸
+    - with lint🍸
+    - with format🍸
+  - Test🍸
+- Prevent merge if errors in checks🍸🍸
 
+  - Set up ruleset in github to prevent merging🍸
+  - make problems and test🍸
+  - fix problems and test again🍸
+
+- Set up CD pipeline
+  - create prod dockerfile
+  - create render webservice
+    - linked to our repe
+    - checking for changes
+    - deploy
+    - test
+  - make to change to code and see if it deploys the change
